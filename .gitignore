@@ -1,0 +1,9 @@
+# Ignora archivos de entorno
+.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Docker
+pdfs/
