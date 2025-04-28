@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  apipdf:
+    image: skarious/apipdf:latest
+    container_name: apipdf
+    environment:
+      FLASK_HOST: 0.0.0.0
+      FLASK_PORT: 5001
+      WKHTMLTOPDF_PATH: /usr/bin/wkhtmltopdf
+      PYTHONUNBUFFERED: 1
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./pdfs:/pdfs
+    restart: unless-stopped
