@@ -77,8 +77,8 @@ Imagen disponible en:
 
 ## ❤️ Créditos
 
-Hecho con ❣️ por Skarious  
-[github.com/skarious](https://github.com/skarious)
+Hecho con ❣️ por Ronald Schneider
+[github.com/skarious](https://github.com/rshtechpy)
 
 ---
 
